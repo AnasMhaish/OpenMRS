@@ -1,0 +1,26 @@
+/* line 2, ../../../compass/sass/patientAppointmentRequests.scss */
+#appointmentRequestsGridTable {
+  width: 900px;
+}
+/* line 6, ../../../compass/sass/patientAppointmentRequests.scss */
+#appointmentRequestsGridTable .col3 {
+  text-align: center;
+}
+
+/* line 12, ../../../compass/sass/patientAppointmentRequests.scss */
+#confirm-cancel-appointment-request {
+  z-index: 999;
+  overflow: hidden;
+}
+
+/* line 17, ../../../compass/sass/patientAppointmentRequests.scss */
+#appointment-request-notes {
+  z-index: 999;
+  overflow: hidden;
+}
+
+/* line 22, ../../../compass/sass/patientAppointmentRequests.scss */
+.inline-box {
+  display: inline-block;
+  padding: 5px;
+}

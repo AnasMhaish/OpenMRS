@@ -1,0 +1,24 @@
+/* line 5, ../../../compass/sass/appointmentsTab.scss */
+#appointmentRequestsGridTable .ngCell, #appointmentRequestsGridTable .ngCellText {
+  cursor: initial !important;
+}
+/* line 10, ../../../compass/sass/appointmentsTab.scss */
+#appointmentRequestsGridTable .ngRow.even:hover {
+  background: #FFFFFF;
+  color: #555;
+}
+/* line 14, ../../../compass/sass/appointmentsTab.scss */
+#appointmentRequestsGridTable .ngRow.even.selected {
+  background: #FFFFFF;
+  color: #555;
+}
+/* line 21, ../../../compass/sass/appointmentsTab.scss */
+#appointmentRequestsGridTable .ngRow.odd:hover {
+  background: #fffdf7;
+  color: #555;
+}
+/* line 25, ../../../compass/sass/appointmentsTab.scss */
+#appointmentRequestsGridTable .ngRow.odd.selected {
+  background: #fffdf7;
+  color: #555;
+}

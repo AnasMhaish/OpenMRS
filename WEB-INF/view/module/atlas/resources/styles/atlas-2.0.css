@@ -1,0 +1,36 @@
+#home {
+    position: relative;
+}
+#atlas {
+    min-height: 600px;
+    max-height: 1000px;
+    width: 100%;
+    overflow:hidden;
+}
+.note-container {
+    position:absolute!important; 
+    z-index: 2;
+    bottom:10px;
+    left: 50%; 
+    margin-left: -200px;
+    max-width: 300px;
+}
+.note-container .note {
+    border-radius: 30px!important;
+    border-color: #363463;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center!important;
+}
+.atlas-show-dialog {
+    margin-top: 3px;
+    font-size: 70%;
+    cursor: pointer;
+}
+.text {
+    color: #1F1E3A;
+    margin-bottom: 5px;
+}
+#counts-enabled, #counts-disabled {
+    display: table;
+}

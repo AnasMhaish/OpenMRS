@@ -1,0 +1,14 @@
+/* line 4, ../../../compass/sass/requestAppointment.scss */
+.create-appointment-request #appointment-type, .create-appointment-request #provider {
+  min-width: 400px;
+}
+/* line 8, ../../../compass/sass/requestAppointment.scss */
+.create-appointment-request #min-time-frame-value, .create-appointment-request #max-time-frame-value, .create-appointment-request #min-time-frame-units, .create-appointment-request #max-time-frame-units {
+  display: inline-block;
+  min-width: 0px;
+}
+/* line 13, ../../../compass/sass/requestAppointment.scss */
+.create-appointment-request #notes {
+  min-width: 400px;
+  height: 100px;
+}

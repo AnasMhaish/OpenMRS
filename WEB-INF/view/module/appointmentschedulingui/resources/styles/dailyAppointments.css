@@ -1,0 +1,54 @@
+/* line 1, ../../../compass/sass/dailyAppointments.scss */
+#dailyAppointmentsGrid.gridStyle {
+  border: 1px solid #d4d4d4;
+  width: 100%;
+  height: 400px;
+}
+
+/* line 7, ../../../compass/sass/dailyAppointments.scss */
+#dailyAppointmentsGrid .ngTopPanel {
+  z-index: 0;
+}
+
+/* line 11, ../../../compass/sass/dailyAppointments.scss */
+#dailyAppointmentsGrid .ngCell {
+  display: table-cell;
+  overflow: visible;
+  position: static;
+  padding: 4px;
+}
+
+/* line 18, ../../../compass/sass/dailyAppointments.scss */
+#dailyAppointmentsGrid .ngRow {
+  display: table-row;
+  position: static;
+}
+
+/* line 23, ../../../compass/sass/dailyAppointments.scss */
+#dailyAppointmentsGrid .ngCellText {
+  white-space: normal;
+  vertical-align: middle;
+}
+
+/* line 29, ../../../compass/sass/dailyAppointments.scss */
+.inline-box {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* line 34, ../../../compass/sass/dailyAppointments.scss */
+selectmultipleappointmenttypes {
+  width: 50%;
+}
+/* line 36, ../../../compass/sass/dailyAppointments.scss */
+selectmultipleappointmenttypes input {
+  width: 80%;
+}
+
+/* line 41, ../../../compass/sass/dailyAppointments.scss */
+#confirm-cancel-appointment {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  z-index: 999;
+}

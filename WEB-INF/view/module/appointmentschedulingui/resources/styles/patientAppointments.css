@@ -1,0 +1,38 @@
+/* line 2, ../../../compass/sass/patientAppointments.scss */
+#appointmentGridTable {
+  width: 900px;
+}
+/* line 8, ../../../compass/sass/patientAppointments.scss */
+#appointmentGridTable .ngCell, #appointmentGridTable .ngCellText {
+  cursor: initial !important;
+}
+/* line 13, ../../../compass/sass/patientAppointments.scss */
+#appointmentGridTable .ngRow.even:hover {
+  background: #FFFFFF;
+  color: #555;
+}
+/* line 17, ../../../compass/sass/patientAppointments.scss */
+#appointmentGridTable .ngRow.even.selected {
+  background: #FFFFFF;
+  color: #555;
+}
+/* line 24, ../../../compass/sass/patientAppointments.scss */
+#appointmentGridTable .ngRow.odd:hover {
+  background: #fffdf7;
+  color: #555;
+}
+/* line 28, ../../../compass/sass/patientAppointments.scss */
+#appointmentGridTable .ngRow.odd.selected {
+  background: #fffdf7;
+  color: #555;
+}
+/* line 34, ../../../compass/sass/patientAppointments.scss */
+#appointmentGridTable .col5 {
+  text-align: center;
+}
+
+/* line 39, ../../../compass/sass/patientAppointments.scss */
+.inline-box {
+  display: inline-block;
+  padding: 5px;
+}

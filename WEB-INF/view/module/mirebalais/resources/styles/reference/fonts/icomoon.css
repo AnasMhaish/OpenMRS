@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-vitals:before, .icon-vitals-2:before, .icon-provider:before, .icon-medicine:before, .icon-diagnosis:before, .icon-x-ray:before, .icon-archives:before, .icon-medical:before, .icon-register:before, .icon-check-in:before, .icon-medicine-2:before, .icon-record:before, .icon-baby:before, .icon-admission:before {
+  font-family: 'icomoon';
+}
+
+/* line 15, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-vitals:before {
+  content: "\e000";
+}
+
+/* line 18, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-vitals-2:before {
+  content: "\e002";
+}
+
+/* line 21, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-provider:before {
+  content: "\e003";
+}
+
+/* line 24, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-medicine:before {
+  content: "\e004";
+}
+
+/* line 27, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-diagnosis:before {
+  content: "\e005";
+}
+
+/* line 30, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-x-ray:before {
+  content: "\e006";
+}
+
+/* line 33, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-archives:before {
+  content: "\e007";
+}
+
+/* line 36, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-medical:before {
+  content: "\e008";
+}
+
+/* line 39, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-register:before {
+  content: "\e001";
+}
+
+/* line 42, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-check-in:before {
+  content: "\e009";
+}
+
+/* line 45, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-medicine-2:before {
+  content: "\e00a";
+}
+
+/* line 48, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-record:before {
+  content: "\e00b";
+}
+
+/* line 51, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-baby:before {
+  content: "\e00c";
+}
+
+/* line 54, ../../../../../compass/sass/reference/fonts/icomoon.scss */
+.icon-admission:before {
+  content: "\e00d";
+}

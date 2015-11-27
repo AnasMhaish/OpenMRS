@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://directwebremoting.org/schema/dwr20.dtd">
+<dwr>
+<allow moduleId="atlas">
+			<create creator="new" javascript="DWRAtlasService">
+				<param name="class" value="org.openmrs.module.atlas.web.dwr.DWRAtlasService"/>
+				<include method="saveAtlasBubbleData"/>
+				<include method="enableAtlasModule"/>
+				<include method="disableAtlasModule"/>
+				<include method="updateAndGetStatistics"/>
+				<include method="getJsonData"/>
+				<include method="postAtlasData"/>
+				<include method="getIsDirty"/>
+                <include method="setSendCounts"/>
+			</create>
+		</allow>
+<signatures moduleId="atlas">
+			<![CDATA[import org.openmrs.module.atlas.web.dwr.DWRAtlasService;
+			DWRAtlasService.disableAtlasModule();
+			]]>
+		</signatures>
+<allow moduleId="reporting">			
+			<create creator="new" javascript="DWRReportingService">
+				<param name="class" value="org.openmrs.module.reporting.web.dwr.DWRReportingService"/>
+				<include method="purgeReportRequest"/>
+			</create>
+		</allow>
+<signatures moduleId="reporting">
+		<![CDATA[
+			import org.openmrs.module.reporting.web.dwr.DWRReportingService;
+			
+			DWRReportingService.purgeReportRequest(Integer id);
+		]]>
+	</signatures>
+<allow moduleId="xforms">
+			<create creator="new" javascript="DWRXformsService">
+				<param name="class" value="org.openmrs.module.xforms.web.DWRXformsService"/>
+			</create>
+			<convert converter="bean" match="org.openmrs.module.xforms.Xform"/>
+		</allow>
+<allow moduleId="chartsearch">
+			<convert converter="bean" match="org.openmrs.module.chartsearch.ChartListItem"/>
+			<convert converter="bean" match="org.openmrs.module.chartsearch.server.PatientInfo"/>
+			<convert converter="bean" match="org.openmrs.module.chartsearch.server.StatisticsInfo"/>
+			<create creator="new" javascript="DWRChartSearchService">
+				<param name="class" value="org.openmrs.module.chartsearch.web.dwr.DWRChartSearchService"/>
+				<include method="findObsAndCount"/>
+				<include method="getDetails"/>
+			</create>
+			<create creator="new" javascript="DWRCommands">
+				<param name="class" value="org.openmrs.module.chartsearch.web.dwr.DWRCommands"/>
+				<include method="getPatientInfo"/>
+				<include method="getStatistics"/>
+				<include method="clearIndex"/>
+				<include method="changeDaemonsCount"/>
+				<include method="indexAllPatientData"/>
+				<include method="getIndexingProgressInfo"/>
+			</create>
+		</allow>
+<allow moduleId="htmlformentry">
+			<create creator="new" javascript="DWRHtmlFormEntryService">
+				<param name="class" value="org.openmrs.module.htmlformentry.web.DWRHtmlFormEntryService"/>
+				<include method="checkIfLoggedIn"/>
+				<include method="authenticate"/>
+			</create>
+		</allow>
+<signatures moduleId="htmlformentry">
+			<![CDATA[
+				import org.openmrs.module.htmlformentry.web.DWRHtmlFormEntryService;
+				DWRHtmlFormEntryService.checkIfLoggedIn();
+				DWRHtmlFormEntryService.authenticate(String user, String pass);
+			]]>
+		</signatures>
+<allow moduleId="appointmentscheduling">
+			<convert converter="bean" match="org.openmrs.module.appointmentscheduling.web.PatientData"/>
+			<convert converter="bean" match="org.openmrs.module.appointmentscheduling.web.AppointmentData"/>
+			<convert converter="bean" match="org.openmrs.module.appointmentscheduling.web.AppointmentBlockData"/>
+			<convert converter="bean" match="org.openmrs.module.appointmentscheduling.TimeSlot"/>
+			<convert converter="bean" match="org.openmrs.module.appointmentscheduling.AppointmentBlock"/>
+			<convert converter="bean" match="org.openmrs.module.appointmentscheduling.AppointmentType"/>
+			<convert converter="bean" match="org.openmrs.module.appointmentscheduling.Appointment"/>
+			<convert converter="bean" match="org.openmrs.Provider"/>
+			<convert converter="bean" match="org.openmrs.Person"/>
+			<convert converter="bean" match="org.openmrs.PersonName"/>
+			<convert converter="bean" match="org.openmrs.Visit"/>
+			<convert converter="bean" match="org.openmrs.User"/>
+			<convert converter="bean" match="org.openmrs.Patient"/>
+			<convert converter="bean" match="org.openmrs.Location"/>
+			<create creator="new" javascript="DWRAppointmentService">
+				<param name="class" value="org.openmrs.module.appointmentscheduling.web.DWRAppointmentService"/>
+				<include method="getPatientDescription"/>
+				<include method="getAppointmentBlocks"/>
+				<include method="getAppointmentBlocksForCalendar"/>
+				<include method="getPatientsInAppointmentBlock"/>
+				<include method="validateDates"/>
+				<include method="checkProviderOpenConsultations"/>
+				<include method="checkProviderOpenConsultationsByPatient"/>
+				<include method="cleanOpenAppointments"/>
+				<include method="getAverageWaitingTimeByType"/>
+				<include method="getAverageConsultationTimeByType"/>
+				<include method="getCountOfWaitingHistories"/>
+				<include method="getCountOfConsultationHistories"/>
+				<include method="getAppointmentTypeDistribution"/>
+				<include method="getAppointmentsCount"/>
+				<include method="getAverageWaitingTimeByProvider"/>
+				<include method="getAverageConsultationTimeByProvider"/>
+				<include method="cleanOpenAppointments"/>
+			</create>
+		</allow>
+<signatures moduleId="appointmentscheduling">
+            <![CDATA[
+            import org.openmrs.module.appointmentscheduling.web.DWRAppointmentService;
+            DWRAppointmentService.getPatientDescription(Integer patientId);
+            DWRAppointmentService.getAppointmentBlocks(String fromDate,String toDate,Integer locationId, Integer providerId, Integer appointmentTypeId);
+            DWRAppointmentService.getAppointmentBlocksForCalendar(Long fromDate,Long toDate,Integer locationId, Integer providerId, Integer appointmentTypeId);
+            DWRAppointmentService.getPatientsInAppointmentBlock(Integer appointmentBlockId);
+            DWRAppointmentService.validateDates(String fromDate,String toDate);
+            DWRAppointmentService.checkProviderOpenConsultations(appointmentId);
+            DWRAppointmentService.checkProviderOpenConsultationsByPatient(patientId);
+            DWRAppointmentService.getAverageWaitingTimeByType(String fromDate, String toDate);
+            DWRAppointmentService.getAverageConsultationTimeByType(String fromDate, String toDate);
+            DWRAppointmentService.getCountOfWaitingHistories(String fromDate, String toDate);
+            DWRAppointmentService.getCountOfConsultationHistories(String fromDate, String toDate);
+            DWRAppointmentService.getAppointmentTypeDistribution(String fromDate, String toDate);
+            DWRAppointmentService.getAppointmentsCount(String fromDate, String toDate);
+            DWRAppointmentService.getAverageWaitingTimeByProvider(String fromDate, String toDate);
+            DWRAppointmentService.getAverageConsultationTimeByProvider(String fromDate, String toDate);
+            ]]>
+		</signatures>
+</dwr>

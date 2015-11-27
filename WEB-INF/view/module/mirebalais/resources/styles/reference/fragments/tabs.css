@@ -1,0 +1,69 @@
+/* line 4, ../../../../../compass/sass/reference/fragments/tabs.scss */
+.ui-tabs {
+  border: none;
+  padding: 0;
+}
+/* line 8, ../../../../../compass/sass/reference/fragments/tabs.scss */
+.ui-tabs ul {
+  border: none;
+  background: none;
+  color: #003f5e;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+}
+/* line 15, ../../../../../compass/sass/reference/fragments/tabs.scss */
+.ui-tabs .ui-tabs-nav {
+  padding: 0;
+  border-bottom: 1px solid #DDD;
+}
+/* line 19, ../../../../../compass/sass/reference/fragments/tabs.scss */
+.ui-tabs .ui-tabs-nav li {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+  border-color: #DDD;
+  background: #F9F9F9;
+  margin: 0 5px 0 0;
+  margin-top: 8px;
+  -webkit-box-shadow: inset 0px -5px 10px #eee;
+}
+/* line 27, ../../../../../compass/sass/reference/fragments/tabs.scss */
+.ui-tabs .ui-tabs-nav li a {
+  outline: 0;
+  color: #aaa;
+}
+/* line 32, ../../../../../compass/sass/reference/fragments/tabs.scss */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+  font-size: 1.1em;
+  background: white;
+  font-family: "OpenSansBold";
+  margin-top: 0px;
+  margin-bottom: -2px;
+  padding-bottom: 1px;
+  -webkit-box-shadow: none;
+}
+/* line 41, ../../../../../compass/sass/reference/fragments/tabs.scss */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-tabs-active a:link, .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-state-default {
+  border-top: 2px solid #003f5e;
+  height: 22px;
+  margin: -1px;
+  color: #003f5e;
+  padding-top: 13px;
+}
+/* line 48, ../../../../../compass/sass/reference/fragments/tabs.scss */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover, .ui-tabs .ui-tabs-nav li.ui-tabs-active a:link:hover, .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-state-default:hover {
+  color: #003f5e;
+}
+/* line 56, ../../../../../compass/sass/reference/fragments/tabs.scss */
+.ui-tabs .ui-tabs-panel {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+}

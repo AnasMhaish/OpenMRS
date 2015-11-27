@@ -1,0 +1,68 @@
+/* line 1, ../../../compass/sass/gridStyle.scss */
+.gridStyle {
+  border-collapse: collapse;
+  border: 1px solid #d4d4d4;
+  margin: 0;
+}
+
+/* line 7, ../../../compass/sass/gridStyle.scss */
+.ngViewport {
+  height: auto;
+}
+
+/* line 11, ../../../compass/sass/gridStyle.scss */
+.ngHeaderCell {
+  width: 100%;
+  background: #E6E6E6;
+  border: 1px solid #DDD;
+  width: auto;
+  border: 1px solid #eeeeee;
+  text-align: left;
+  word-break: normal;
+  font-weight: normal;
+  color: #555;
+  font-family: "OpenSansBold";
+}
+
+/* line 26, ../../../compass/sass/gridStyle.scss */
+.ngRow.odd {
+  background: #fffdf7;
+  color: #555;
+}
+/* line 30, ../../../compass/sass/gridStyle.scss */
+.ngRow.odd.selected {
+  background: #007FFF;
+  color: #FFFFFF;
+}
+/* line 35, ../../../compass/sass/gridStyle.scss */
+.ngRow.odd:hover {
+  background: #007FFF;
+  color: #FFFFFF;
+}
+
+/* line 42, ../../../compass/sass/gridStyle.scss */
+.ngRow.even {
+  background: #FFFFFF;
+  color: #555;
+}
+/* line 46, ../../../compass/sass/gridStyle.scss */
+.ngRow.even.selected {
+  background: #007FFF;
+  color: #FFFFFF;
+}
+/* line 51, ../../../compass/sass/gridStyle.scss */
+.ngRow.even:hover {
+  background: #007FFF;
+  color: #FFFFFF;
+}
+
+/* line 57, ../../../compass/sass/gridStyle.scss */
+.ngFooterPanel {
+  background: #FFFFFF;
+  font-size: 0.9em;
+}
+
+/* line 62, ../../../compass/sass/gridStyle.scss */
+.ngCellText {
+  white-space: normal;
+}

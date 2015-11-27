@@ -1,0 +1,14 @@
+/* line 1, ../../../compass/sass/appointmentType.scss */
+.appointment-type-label {
+  display: inline-block;
+}
+
+/* line 5, ../../../compass/sass/appointmentType.scss */
+.create-appointment-type input, .create-appointment-type textarea {
+  min-width: 0;
+}
+
+/* line 9, ../../../compass/sass/appointmentType.scss */
+#appointmentTypesTable {
+  word-break: break-all;
+}

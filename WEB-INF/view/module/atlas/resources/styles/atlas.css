@@ -1,0 +1,39 @@
+#atlas-map {
+    position: relative;
+    width:960px
+}
+.note-container {
+    position:absolute!important;
+    bottom:30px;
+    left: 50%; 
+    margin-left: -175px;
+    max-width: 475px;
+    min-width: 400px;
+}
+.note-container .note {
+    padding: 10px;
+    border-radius: 30px!important;
+    border-color: #363463;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center!important;
+}
+.atlas-show-dialog {
+    margin-top: 3px;
+    font-size: 70%;
+    z-index: 4;
+    cursor: pointer;
+}
+.text {
+    color: #1F1E3A;
+    margin-bottom: 5px;
+}
+.btn-group{
+    z-index: 0;
+}
+.ui-dialog {
+	z-index: 4!important;
+}
+#counts-enabled, #counts-disabled {
+    display: table;
+}

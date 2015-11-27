@@ -1,0 +1,88 @@
+/* line 3, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container {
+  position: relative;
+  text-align: center;
+}
+/* line 7, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note {
+  text-align: left;
+  min-width: 340px;
+  padding: 10px;
+  margin: 10px auto;
+  display: inline-block;
+  overflow: hidden;
+  clear: both;
+  position: relative;
+  border-radius: 3px;
+}
+/* line 18, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note .text {
+  display: inline-block;
+}
+/* line 21, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note .text i {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+}
+/* line 26, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note .text p {
+  margin: 0 20px 0 10px;
+  max-width: 93.5%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  top: 5px;
+  text-align: left;
+}
+/* line 37, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note .close-icon {
+  top: 5px;
+  right: 5px;
+  position: absolute;
+  font-size: 0.25em;
+  cursor: pointer;
+}
+/* line 45, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note .actions, .note-container .note #actions {
+  margin: 20px 10px 0 45px;
+}
+/* line 51, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note.error .icon i {
+  padding: 0px 3px;
+  font-size: 1.5em;
+}
+/* line 58, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note.warning, .note-container .note.success, .note-container .note.error {
+  border: 1px solid transparent;
+}
+/* line 62, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note.warning {
+  color: #ffa000;
+  background: #fffdf0;
+  border-color: #ffa000;
+}
+/* line 68, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note.success {
+  color: #212a0a;
+  background: #a1d030;
+  border-color: #81a726;
+}
+/* line 73, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note.success .icon i {
+  color: #212a0a;
+  background: #a1d030;
+  border-color: #212a0a;
+}
+/* line 80, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note.error {
+  color: white;
+  background: #ea1f41;
+  border-color: #950e25;
+}
+/* line 85, ../../../../../compass/sass/reference/fragments/notifications.scss */
+.note-container .note.error .icon i {
+  background: white;
+  color: #ea1f41;
+  border-color: white;
+}

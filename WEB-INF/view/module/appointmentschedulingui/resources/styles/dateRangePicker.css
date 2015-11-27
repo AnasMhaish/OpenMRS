@@ -1,0 +1,15 @@
+/* line 1, ../../../compass/sass/dateRangePicker.scss */
+.date-range-picker-div {
+  display: inline-block;
+}
+
+/* line 5, ../../../compass/sass/dateRangePicker.scss */
+.date-range-picker-clear-link {
+  font-size: 12px;
+  margin-right: 15px;
+}
+
+/* line 10, ../../../compass/sass/dateRangePicker.scss */
+.date-range-picker-div .angular-datepicker .icon-calendar {
+  vertical-align: middle;
+}

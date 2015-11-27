@@ -1,0 +1,82 @@
+/* line 1, ../../../compass/sass/scheduleProviders.scss */
+#createAppointmentBlock {
+  width: 69%;
+}
+
+/* line 5, ../../../compass/sass/scheduleProviders.scss */
+#viewAppointmentBlock {
+  width: 69%;
+}
+
+/* line 9, ../../../compass/sass/scheduleProviders.scss */
+selectmultipleappointmenttypes {
+  width: 44%;
+}
+
+/* line 13, ../../../compass/sass/scheduleProviders.scss */
+#delete-appointment-block-modal {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 150px;
+  z-index: 99;
+}
+
+/* line 24, ../../../compass/sass/scheduleProviders.scss */
+#delete-appointment-block-modal-buttons {
+  padding: 10px;
+}
+
+/* line 28, ../../../compass/sass/scheduleProviders.scss */
+#filter-parameters {
+  display: inline-block;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+/* line 34, ../../../compass/sass/scheduleProviders.scss */
+#filter-provider {
+  display: inline-block;
+}
+
+/* line 38, ../../../compass/sass/scheduleProviders.scss */
+.inline-box {
+  display: inline-block;
+  padding: 3px;
+}
+
+/* line 44, ../../../compass/sass/scheduleProviders.scss */
+#start-time input, #end-time input {
+  width: 30px;
+}
+/* line 48, ../../../compass/sass/scheduleProviders.scss */
+#start-time tr, #end-time tr {
+  border: none;
+}
+/* line 51, ../../../compass/sass/scheduleProviders.scss */
+#start-time tr td, #end-time tr td {
+  border: none;
+  padding: 2px 2px;
+}
+/* line 55, ../../../compass/sass/scheduleProviders.scss */
+#start-time tr td button, #end-time tr td button {
+  padding: 2px 2px;
+}
+
+/* line 62, ../../../compass/sass/scheduleProviders.scss */
+#appointment-block-form-buttons {
+  padding: 10px;
+}
+
+/* class of the calendar header */
+/* line 68, ../../../compass/sass/scheduleProviders.scss */
+.fc-header tr {
+  border: none;
+}
+/* line 71, ../../../compass/sass/scheduleProviders.scss */
+.fc-header tr td {
+  border: none;
+}

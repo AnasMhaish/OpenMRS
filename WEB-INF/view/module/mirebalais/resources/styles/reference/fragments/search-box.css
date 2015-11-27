@@ -1,0 +1,56 @@
+/* line 22, ../../../../../compass/sass/reference/fragments/search-box.scss */
+.scan-input {
+  position: relative;
+  display: inline-block;
+}
+/* line 7, ../../../../../compass/sass/reference/fragments/search-box.scss */
+.scan-input:after {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  content: "\f02a";
+  color: #003f5e;
+  font-size: 2em;
+  position: absolute;
+  right: 5px;
+  top: 16%;
+}
+/* line 26, ../../../../../compass/sass/reference/fragments/search-box.scss */
+.scan-input input {
+  padding-right: 38px;
+}
+
+/* line 31, ../../../../../compass/sass/reference/fragments/search-box.scss */
+.patient-search-form {
+  width: 70%;
+  margin: 20px auto;
+}
+/* line 35, ../../../../../compass/sass/reference/fragments/search-box.scss */
+.patient-search-form .search-input {
+  background: #005078;
+  text-align: center;
+  color: white;
+  padding: 20px 30px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 42, ../../../../../compass/sass/reference/fragments/search-box.scss */
+.patient-search-form .search-input .scan-input::after {
+  top: 7%;
+}
+/* line 47, ../../../../../compass/sass/reference/fragments/search-box.scss */
+.patient-search-form label {
+  font-family: "OpenSansLight";
+  font-size: 1.2em;
+}
+/* line 52, ../../../../../compass/sass/reference/fragments/search-box.scss */
+.patient-search-form #patient-search-field-search {
+  margin: 0 auto;
+  width: 500px;
+}

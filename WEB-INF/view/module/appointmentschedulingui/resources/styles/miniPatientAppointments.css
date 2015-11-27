@@ -1,0 +1,13 @@
+/* line 1, ../../../compass/sass/miniPatientAppointments.scss */
+#miniPatientAppointments, #miniPatientAppointmentRequests {
+  font-size: 0.8em;
+}
+
+/* line 5, ../../../compass/sass/miniPatientAppointments.scss */
+.status-lozenge {
+  display: inline-block;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+  padding: 1px 2px;
+}

@@ -1,0 +1,328 @@
+/* line 4, ../../../../../compass/sass/reference/fragments/base.scss */
+body {
+  font-family: "OpenSans", Arial, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  max-width: 1000px;
+  margin: 10px auto;
+  background: #eeeeee;
+  color: #003f5e;
+  font-size: 16px;
+}
+
+/* line 14, ../../../../../compass/sass/reference/fragments/base.scss */
+#body-wrapper {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 21, ../../../../../compass/sass/reference/fragments/base.scss */
+table {
+  margin: 0 auto;
+}
+
+/* line 25, ../../../../../compass/sass/reference/fragments/base.scss */
+i {
+  font-size: 4em;
+  padding: 0.2em;
+}
+/* line 29, ../../../../../compass/sass/reference/fragments/base.scss */
+i.link {
+  font-size: 0.7em;
+}
+/* line 33, ../../../../../compass/sass/reference/fragments/base.scss */
+i.small {
+  font-size: 1.2em;
+}
+/* line 37, ../../../../../compass/sass/reference/fragments/base.scss */
+i.medium {
+  font-size: 2em;
+}
+
+/* line 42, ../../../../../compass/sass/reference/fragments/base.scss */
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 47, ../../../../../compass/sass/reference/fragments/base.scss */
+ol {
+  display: inline-block;
+}
+
+/* line 51, ../../../../../compass/sass/reference/fragments/base.scss */
+ul {
+  list-style: none;
+}
+
+/* line 55, ../../../../../compass/sass/reference/fragments/base.scss */
+hr {
+  border: 0;
+  border-bottom: 1px solid white;
+}
+
+/* line 60, ../../../../../compass/sass/reference/fragments/base.scss */
+a {
+  color: #007fff;
+  text-decoration: none;
+}
+/* line 64, ../../../../../compass/sass/reference/fragments/base.scss */
+a:hover {
+  color: #3399ff;
+  text-decoration: underline;
+}
+/* line 69, ../../../../../compass/sass/reference/fragments/base.scss */
+a:visited, a.visited {
+  color: #007fff;
+}
+
+/* line 74, ../../../../../compass/sass/reference/fragments/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #501d3d;
+  clear: both;
+  margin: 10px 0;
+}
+
+/* line 80, ../../../../../compass/sass/reference/fragments/base.scss */
+h1 {
+  font-size: 1.5em;
+  margin: 10px 0 20px 0;
+}
+
+/* line 85, ../../../../../compass/sass/reference/fragments/base.scss */
+h2 {
+  font-size: 1.3em;
+  color: #883168;
+}
+/* line 89, ../../../../../compass/sass/reference/fragments/base.scss */
+h2 em {
+  font-size: 0.7em;
+  color: #bd4992;
+  display: block;
+}
+
+/* line 96, ../../../../../compass/sass/reference/fragments/base.scss */
+h3 {
+  font-size: 1.2em;
+}
+
+/* line 101, ../../../../../compass/sass/reference/fragments/base.scss */
+h4 {
+  font-size: 1.2em;
+  color: #883168;
+}
+
+/* line 106, ../../../../../compass/sass/reference/fragments/base.scss */
+h5 {
+  font-size: 1.17em;
+}
+
+/* line 110, ../../../../../compass/sass/reference/fragments/base.scss */
+h6 {
+  font-size: 1.13em;
+  color: #883168;
+}
+
+/* line 115, ../../../../../compass/sass/reference/fragments/base.scss */
+p {
+  margin: 0;
+}
+
+/* line 119, ../../../../../compass/sass/reference/fragments/base.scss */
+strong {
+  font-family: "OpenSansBold";
+  font-weight: normal;
+}
+
+/* line 124, ../../../../../compass/sass/reference/fragments/base.scss */
+em {
+  font-family: "OpenSansItalic";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 130, ../../../../../compass/sass/reference/fragments/base.scss */
+form {
+  overflow: hidden;
+}
+/* line 133, ../../../../../compass/sass/reference/fragments/base.scss */
+form input, form select, form textarea, form ul.select {
+  min-width: 80%;
+  color: #003f5e;
+  display: block;
+  padding: 5px 10px;
+  margin: 0;
+  margin-top: 1%;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+}
+/* line 143, ../../../../../compass/sass/reference/fragments/base.scss */
+form input:focus, form select:focus, form textarea:focus, form ul.select:focus {
+  outline: none;
+  background: #fffdf7;
+}
+/* line 149, ../../../../../compass/sass/reference/fragments/base.scss */
+form select {
+  min-width: 200px;
+}
+/* line 153, ../../../../../compass/sass/reference/fragments/base.scss */
+form select[disabled] {
+  background: #EEE;
+  border: #CCC 1px solid;
+  color: #CCC;
+}
+/* line 159, ../../../../../compass/sass/reference/fragments/base.scss */
+form ul.select {
+  margin-top: 0;
+}
+/* line 163, ../../../../../compass/sass/reference/fragments/base.scss */
+form fieldset {
+  border: 1px solid #EEE;
+  display: inline-block;
+  padding: 20px;
+  min-width: 60%;
+}
+/* line 169, ../../../../../compass/sass/reference/fragments/base.scss */
+form fieldset legend {
+  text-align: left;
+  padding: 0 10px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* line 177, ../../../../../compass/sass/reference/fragments/base.scss */
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+/* line 184, ../../../../../compass/sass/reference/fragments/base.scss */
+form p {
+  text-align: left;
+  margin-bottom: 15px;
+}
+/* line 188, ../../../../../compass/sass/reference/fragments/base.scss */
+form p strong {
+  display: block;
+  text-align: left;
+  clear: both;
+}
+/* line 195, ../../../../../compass/sass/reference/fragments/base.scss */
+form input[type="checkbox"], form input[type="radio"] {
+  min-width: 0;
+  margin: 2px 5px;
+  float: left;
+}
+
+/* line 202, ../../../../../compass/sass/reference/fragments/base.scss */
+ul.select {
+  text-align: left;
+  margin: 0 20px;
+  padding: 0;
+  font-size: 0.8em;
+}
+/* line 208, ../../../../../compass/sass/reference/fragments/base.scss */
+ul.select li {
+  margin: 0 10px;
+  text-align: left;
+  display: inline-block;
+  width: 250px;
+  padding: 5px;
+  color: #007fff;
+  background-color: #FFF;
+  border-bottom: 1px solid #EFEFEF;
+}
+/* line 218, ../../../../../compass/sass/reference/fragments/base.scss */
+ul.select li:hover {
+  background-color: #007fff;
+  color: white;
+  cursor: pointer;
+}
+/* line 224, ../../../../../compass/sass/reference/fragments/base.scss */
+ul.select li.selected {
+  background-color: #007fff;
+  color: white;
+  border-color: transparent;
+}
+
+/* line 232, ../../../../../compass/sass/reference/fragments/base.scss */
+table {
+  width: 100%;
+  font-size: 0.9em;
+}
+/* line 236, ../../../../../compass/sass/reference/fragments/base.scss */
+table th, table td {
+  padding: 5px 10px;
+  border: 1px solid #DDD;
+}
+/* line 241, ../../../../../compass/sass/reference/fragments/base.scss */
+table tr {
+  border: 1px solid #eeeeee;
+}
+/* line 245, ../../../../../compass/sass/reference/fragments/base.scss */
+table tr:nth-child(even) {
+  background: #fffdf7;
+}
+/* line 249, ../../../../../compass/sass/reference/fragments/base.scss */
+table tr:nth-child(odd) {
+  background: white;
+}
+/* line 253, ../../../../../compass/sass/reference/fragments/base.scss */
+table tr.hover {
+  background: #75b2f0;
+  color: white;
+  cursor: pointer;
+}
+/* line 259, ../../../../../compass/sass/reference/fragments/base.scss */
+table tr.selected {
+  background: #007fff;
+  color: white;
+}
+/* line 264, ../../../../../compass/sass/reference/fragments/base.scss */
+table thead th {
+  border-bottom: 2px solid #DDD;
+  background: #eeeeee;
+  width: auto;
+  word-break: break-all;
+}
+
+/* line 272, ../../../../../compass/sass/reference/fragments/base.scss */
+.title {
+  font-family: "OpenSansBold";
+}
+
+/* line 276, ../../../../../compass/sass/reference/fragments/base.scss */
+.body {
+  font-weight: 400;
+}
+
+/* line 280, ../../../../../compass/sass/reference/fragments/base.scss */
+.small {
+  font-family: "OpenSansLight";
+}
+
+/* line 284, ../../../../../compass/sass/reference/fragments/base.scss */
+.clear {
+  clear: both;
+}
+
+/* line 288, ../../../../../compass/sass/reference/fragments/base.scss */
+.left {
+  float: left;
+}
+
+/* line 292, ../../../../../compass/sass/reference/fragments/base.scss */
+.right {
+  float: right;
+}
+
+/* line 296, ../../../../../compass/sass/reference/fragments/base.scss */
+.hidden {
+  display: none;
+}
